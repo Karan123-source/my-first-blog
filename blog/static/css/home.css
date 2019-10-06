@@ -1,0 +1,40 @@
+#a{
+padding-left: 420px;
+font-family: 'Roboto', sans-serif;
+margin-top: -120px;
+}
+
+
+.alpha{
+
+  padding-left:  10px;
+  margin-left: 420px;
+  font-family: 'Roboto', sans-serif;
+  border-left: solid 5px #B5525C;
+
+
+}
+
+#b{
+  padding-top: 20px;
+}
+
+.am a{
+
+  margin-right: 70px;
+  margin-left: 80px;
+  color: black;
+}
+.am h5{
+
+  font-family: 'Roboto', sans-serif;
+  margin-top: 220px;
+  color: black;
+  font-style: italic;
+}
+
+img{
+  margin-left:  200px;
+  margin-top: 250px;
+  border-radius: 50%;
+}

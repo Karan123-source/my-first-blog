@@ -1,0 +1,50 @@
+{% load static %}
+<html lang="en" dir="ltr">
+    <head>
+        <title>Karan Takalkar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+
+        {% block extra_head %}
+        {% endblock %}
+
+
+
+    </head>
+
+    <body>
+
+      <div class="sidenav bg-dark">
+
+    <h2 id="name">Karan Takalkar</h2>
+    <h6>IIT Kanpur</h6>
+
+    <a href="/">Home</a>
+    <a href="/acads">Academics</a>
+    <a href="/blog">Blog</a>
+    <a href="#">CV</a>
+
+  </div>
+
+        <p></p>
+        <p></p>
+
+
+
+      <div class="container">
+
+        {% block content %}
+        {% endblock %}
+
+</div>
+
+
+
+
+
+
+    </body>
+</html>

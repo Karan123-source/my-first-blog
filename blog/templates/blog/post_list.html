@@ -1,18 +1,23 @@
-<html>
-    <head>
-        <title>Django Girls blog</title>
-    </head>
-    <body>
-      <div>
-    <h1><a href="/">Django Girls Blog</a></h1>
-</div>
+
+
+{% extends 'blog/base.html' %}
+
+
+{% block extra_head %}
+    <link rel="stylesheet" href="static/css/posts.css">
+{% endblock %}
+
+
+
+{% block content %}
 
 {% for post in posts %}
-    <div>
-        <p>published: {{ post.published_date }}</p>
-        <h2><a href="">{{ post.title }}</a></h2>
+    <div class = "jumbotron" id="ohm">
+        <p class="lead">published: {{ post.published_date }}</p>
+        <h2 class="display-4">{{ post.title }}</h2>
+        <hr class="my-4">
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}
-    </body>
-</html>
+
+{% endblock %}
