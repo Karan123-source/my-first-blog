@@ -16,6 +16,17 @@
         <p class="lead">published: {{ post.published_date }}</p>
         <h2 class="display-4">{{ post.title }}</h2>
         <hr class="my-4">
+        {% if post.images %}
+        <img src="{{ post.images.url }}" alt="" style="  width: 400px ;
+          height: 300px;" >
+        {% endif %}
+        {% if post.video %}
+        <iframe width="560" height="315" src="{{post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        {% endif %}
+        {% if post.filelink %}
+        <a href="{{post.filelink}}" style = "color=blue;">{{post.filelink}}</a>
+        {% endif %}
+        <p></p>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
 {% endfor %}

@@ -9,6 +9,9 @@ class Post(models.Model):
     text = models.TextField()
     created_date = models.DateTimeField(default=timezone.now)
     published_date = models.DateTimeField(blank=True, null=True)
+    images =   models.ImageField(null=True, blank=True, upload_to="images/")
+    video =  models.URLField(max_length=200, null=True, blank = True)
+    filelink =  models.URLField(max_length=300, null=True, blank=True)
 
     def publish(self):
         self.published_date = timezone.now()
