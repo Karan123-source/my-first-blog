@@ -1,85 +1,40 @@
 #a{
-padding-left: 420px;
-font-family: 'Roboto', sans-serif;
-margin-top: -140px;
+    padding-left: 420px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: -140px;
 }
-
-
-
 .alpha{
-
-  padding-left:  10px;
-  margin-left: 420px;
-  font-family: 'Roboto', sans-serif;
-  border-left: solid 5px #B5525C;
-
-
+    padding-left:  10px;
+    margin-left: 420px;
+    font-family: 'Roboto', sans-serif;
+    border-left: solid 5px #B5525C;
 }
-
 #b{
-  padding-top: 20px;
+    padding-top: 20px;
 }
-
-.am a{
-
-  margin-right: 70px;
-  margin-left: 80px;
-  color: black;
-}
-.am h5{
-
-  font-family: 'Roboto', sans-serif;
-  margin-top: 260px;
-  color: black;
-  font-style: italic;
-  margin-bottom: 5px;
-}
-
 img{
-  margin-left:  200px;
-  margin-top: 220px;
-  border-radius: 50%;
+    margin-left:  200px;
+    margin-top: 220px;
+    border-radius: 50%;
 }
-
 html, body{
     overflow = auto;
 }
-
 @media screen and (max-height: 750px) {
 
-img{margin-top: 120px; margin-left: 100px;}
+    img{margin-top: 120px; margin-left: 100px;}
 
-#a{
-padding-left: 100px;
-margin-top: 15px;
-}
+    #a{
+        padding-left: 100px;
+        margin-top: 15px;
+    }
 
-#b{
-  padding-top: 30px;
-}
+    #b{
+        padding-top: 30px;
+    }
 
-.alpha{
-
-  padding-left:  10px;
-  margin-left: 100px;
-
-
-
-}
-
-
-.am a{
-
-
-  margin-left: 1px;
-
-}
-.am h5{
-
-
-  margin-top: 150px;
-
-}
-
-
+    .alpha{
+        padding-left:  10px;
+        margin-left: 100px;
+    }
 }

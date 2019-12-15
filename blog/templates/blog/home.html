@@ -4,29 +4,30 @@
 {% block extra_head %}
     <link rel="stylesheet" href="static/css/home.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
 {% block content %}
 
-<img src="https://lh3.googleusercontent.com/RWFHre3rWMvH9KDagQes2rYsHrTNAO1lwurheVFTLdQ1HDVEVzuJCTRYRe833mYQL8esQwoAF2UUkj5nzFxiGkXZPEPnnYNijBxUPvHiIJh_f5SGgEAPkIPnhvKyU7EmEGRsjfSVduvZyF481uge2xvYOQbm3KV_f1l_1nV22-snP5bw8zL2UGsOnUNdFYW7Y-7bYvmle_wlLJXaWPzI036WBD4jhidLaHXEho4FHRQwI9UHck2-sV9ENN-XhkXRym86A8ZEbPZJTO6BoYTCQBqgUfwti67RPQciW4BsueY-4q6b5emlrcMNRV9rLLe_hT2joXqkIZ6otXq7mjZgjjdR768pdwcppas0WfSh36qMbkAUh_zrlLMSM21YD0blzmNFdZkaanZq4EvlTEaMdG1rQXIAL1N_rauZrwOE9EeOJaJfJLAl6p2HOtpwFM39pgDobgX2Cz5F8BFeyF-66cX_KvqEmgJu5bV3k1UoYg293yhWum3Gomij6WYFp_7y3It3WWta9p8oqb9KQ3z7Ez60eE445LCt2yX8nn82nGRjnYovclK-T2ivPagtoAAIKePBQLTZwMNQkTLZ7B7pTCnY7OTXBeaV7GX8ZLiWpT-pzMFMxZ7rfyvEa7BBbhidsEYbqas_mJcwDwggsOacsLSiytBdi516jWzUv4QWZ1tOGh5uETZXWUQ=w1004-h993-no" alt="not here" width="200" height="200">
+<!-- loading gif -->
+<div id="loading"></div>
+<script >
+function hideLoader() {
+        $('#loading').hide();
+        }
+        setTimeout(hideLoader, 3 * 1000);
+</script>
 
-<h1 id="a">
-<span>Karan Takalkar</span></h1>
-
-
-
+<div >
+    <img src="https://lh3.googleusercontent.com/RWFHre3rWMvH9KDagQes2rYsHrTNAO1lwurheVFTLdQ1HDVEVzuJCTRYRe833mYQL8esQwoAF2UUkj5nzFxiGkXZPEPnnYNijBxUPvHiIJh_f5SGgEAPkIPnhvKyU7EmEGRsjfSVduvZyF481uge2xvYOQbm3KV_f1l_1nV22-snP5bw8zL2UGsOnUNdFYW7Y-7bYvmle_wlLJXaWPzI036WBD4jhidLaHXEho4FHRQwI9UHck2-sV9ENN-XhkXRym86A8ZEbPZJTO6BoYTCQBqgUfwti67RPQciW4BsueY-4q6b5emlrcMNRV9rLLe_hT2joXqkIZ6otXq7mjZgjjdR768pdwcppas0WfSh36qMbkAUh_zrlLMSM21YD0blzmNFdZkaanZq4EvlTEaMdG1rQXIAL1N_rauZrwOE9EeOJaJfJLAl6p2HOtpwFM39pgDobgX2Cz5F8BFeyF-66cX_KvqEmgJu5bV3k1UoYg293yhWum3Gomij6WYFp_7y3It3WWta9p8oqb9KQ3z7Ez60eE445LCt2yX8nn82nGRjnYovclK-T2ivPagtoAAIKePBQLTZwMNQkTLZ7B7pTCnY7OTXBeaV7GX8ZLiWpT-pzMFMxZ7rfyvEa7BBbhidsEYbqas_mJcwDwggsOacsLSiytBdi516jWzUv4QWZ1tOGh5uETZXWUQ=w1004-h993-no" alt="not here" width="200" height="200">
+    <h1 id="a">
+    <span>Karan Takalkar</span></h1>
+</div>
 <div class="alpha">
   <h3 id="b">Sophomore</h3>
   <h3 id="c">Department of Material Science Engineering</h3>
   <h3 id="d">IIT Kanpur</h3>
 
 </div>
-
-<div class="am">
-  <h5><a href="mailto:karant@iitk.ac.in">karant@iitk.ac.in</a><a href="https://github.com/karantakalkar">github.com/karantakalkar</a><a href="https://www.linkedin.com/in/karan-takalkar-0974ba144/">linkedin.com/in/karan-takalkar</a></h5>
-</div>
-
-
-
 
 {% endblock %}

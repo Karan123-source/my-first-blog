@@ -8,54 +8,38 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
         <link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap" rel="stylesheet">
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			  integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+			  crossorigin="anonymous"></script>
 
         {% block extra_head %}
         {% endblock %}
-
-
-
+        
     </head>
-
-    <body>
-
       <!-- side navbar -->
 
     <div class="sidenav bg-dark">
+        <div >
+          <h2 id="name">Karan Takalkar</h2>
+          <h6>IIT Kanpur</h6>
 
-
-<div >
-
-
-  <h2 id="name">Karan Takalkar</h2>
-  <h6>IIT Kanpur</h6>
-
-  <a href="/">Home</a>
-  <a href="/acads">Academics</a>
-  <a href="/blog">Blog</a>
-  <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf">CV</a>
-
-
-</div>
-
-
+          <a href="/">Home</a>
+          <a href="/acads">Academics</a>
+          <a href="/blog">Blog</a>
+          <a href="https://www.silverscript.com/pdf/transition-fill-letter.pdf">CV</a>
+        </div>
     </div>
 
-    <!-- body -->
-
+     <!-- body -->
     <div class="" id="main">
-
       <p></p>
       <p></p>
-
-
         <div class="container">
-
             {% block content %}
             {% endblock %}
-
       </div>
    </div>
-
 
 
 

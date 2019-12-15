@@ -1,23 +1,51 @@
 {% extends 'blog/base.html' %}
 
 {% block extra_head %}
-
- <link rel="stylesheet" href="static/css/acads.css">
-<link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 {% endblock %}
 
-
-
 {% block content %}
+<style >
+    .fa {
+     font-size: 35px;
+     width: 50px;
+     text-align: left;
+     text-decoration: none;
+     margin-right: 10px;
+    }
+    .fa:hover {
+     color: grey;
+    }
+    .fa-github {
+     color: black;
+    }
+    .fa-linkedin {
+     color: black;
+    }
+    #omega{
+
+        border-radius: 50%;
+    }
+</style>
 
 <div class="jumbotron">
 
-  <h2> Programming and Design Technologies Known :</h2>
+  <h2>  Development Stack <img src="https://media.giphy.com/media/tOFKFDbeh9V7y/giphy.gif" width="50px;" height="50px;" id = "omega" alt=""></h2>
   <hr class="my-4">
-  <p>  Python, C++, C </p>
-  <p> HTML, CSS, Bootstrap, AutoCAD</p>
-  <p>Javascript, JQuery, DOM</p>
-  <p>Django Web Devlopment Framework</p>
+  <h5><strong>Languages</strong></h5>
+  <p>  Python, C++, JavaScript </p>
+  <h5><strong>Frameworks</strong></h5>
+  <p>FLask, Django, AngularJS, VueJS</p>
+  <h5><strong>Graphics</strong></h5>
+  <p>HTML5, CSS3, Bootstrap</p>
+  <h5><strong>Other Utilities</strong></h5>
+  <p><em>Databases</em> : PostgreSQL, MongoDB, SQLite</p>
+  <p><em>Deployment</em> : Heroku, PA</p>
+  <p> <em>Misc.</em> : Jquery, REST API, SQLAlchemy, Webpack, Docker</p>
+  <hr class="my-4">
+  <a href="https://github.com/karantakalkar" class="fa fa-github" style="text-decoration:none;"></a>
+  <a href="https://www.linkedin.com/in/karan-takalkar-0974ba144/" class="fa fa-linkedin" style="text-decoration:none;"></a>
+  
 </div>
 
 
