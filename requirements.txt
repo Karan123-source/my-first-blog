@@ -1,5 +1,5 @@
 dj-database-url==0.4.0
-Django==2.2.4
+Django==2.2.24
 django-extensions==1.5.9
 gunicorn==19.4.5
 Pillow==5.2.0
